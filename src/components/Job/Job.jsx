@@ -143,7 +143,7 @@ const Job = () => {
     };
 
     return (
-        <div id='job' className="h-190 bg-[#FAC599] flex justify-center">
+        <div id='job' className="h-auto bg-[#FAC599] flex justify-center">
             <div id='about' className="relative container border border-[#803A12] outline-8 m-6 rounded-2xl text-[#803A12] overflow-hidden">
                 <img
                     src="./picture/leftJob.svg"
@@ -159,8 +159,8 @@ const Job = () => {
                 />
 
                 <div className='relative flex flex-col items-center z-10'>
-                    <h2 className='font-multiround text-[#331707] text-5xl text-center mt-10 p-4 z-10'>Хотите стать нашим сотрудником?</h2>
-                    <h3 className="font-multiround text-[#331707] text-4xl text-center z-10 mb-6">Оставьте заявку</h3>
+                    <h2 className='font-multiround text-[#331707] text-4xl md:text-5xl text-center mt-10 p-4 z-10'>Хотите стать нашим сотрудником?</h2>
+                    <h3 className="font-multiround text-[#331707] text-3xl md:text-4xl text-center z-10 mb-6">Оставьте заявку</h3>
 
                     <div>
                         <form className='text-2xl font-nunito font-bold' onSubmit={handleSubmit}>
@@ -246,7 +246,7 @@ const Job = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='mt-4'>
+                            <div className='my-4'>
                                 <button type="submit" className="bg-[#fab583] rounded-2xl cursor-pointer border border-[#803A12] h-20 w-80">
                                     ОТПРАВИТЬ
                                 </button>

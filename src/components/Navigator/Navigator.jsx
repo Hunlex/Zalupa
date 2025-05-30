@@ -21,13 +21,13 @@ const Navigator = () => {
         <nav className="bg-[#A74C17] h-[70px] flex justify-center text-[#FDE3CD]">
             <div className="container flex items-center justify-between px-4">
                 {/* Логотип для мобильных */}
-                <div className="lg:hidden text-xl font-bold font-multiround">
+                <div className="md:hidden text-xl font-bold font-multiround">
                    МАКАКАО 
                 </div>
                 
                 {/* Кнопка меню с надписью и иконкой */}
                 <button 
-                    className="lg:hidden flex items-center space-x-2 focus:outline-none group"
+                    className="md:hidden flex items-center space-x-2 focus:outline-none group"
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
                 >
                     <span className="font-multiround text-lg">Меню</span>
@@ -46,7 +46,7 @@ const Navigator = () => {
                 </button>
                 
                 {/* Десктопное меню */}
-                <div className="hidden lg:flex w-full text-xl">
+                <div className="hidden md:flex w-full text-sm lg:text-xl">
                     {menuItems.map((item, index) => (
                         <a
                             key={item.id}
@@ -69,7 +69,7 @@ const Navigator = () => {
             
             {/* Мобильное меню */}
             {isMenuOpen && (
-                <div className="lg:hidden absolute top-[70px] left-0 right-0 bg-[#A74C17] z-50 shadow-lg">
+                <div className="md:hidden absolute top-[70px] left-0 right-0 bg-[#A74C17] z-50 shadow-lg">
                     <div className="container mx-auto py-4">
                         {menuItems.map(item => (
                             <a

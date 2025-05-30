@@ -151,7 +151,7 @@ const Order = () => {
     };
 
     return (
-        <div id='order' className="h-200 bg-[#FAC599] flex justify-center">
+        <div id='order' className="h-auto bg-[#FAC599] flex justify-center">
             <div className="relative container border border-[#803A12] outline-8 m-6 rounded-2xl text-[#803A12] overflow-hidden">
                 <img
                     src="./picture/leftOrder.svg"
@@ -168,7 +168,7 @@ const Order = () => {
 
                 <div className='relative flex flex-col items-center z-10'>
 
-                    <span className='font-multiround text-[#331707] text-5xl p-6'>ЗАБРОНИРОВАТЬ СТОЛ</span>
+                    <span className='font-multiround text-[#331707] text-4xl md:text-5xl p-6'>ЗАБРОНИРОВАТЬ СТОЛ</span>
 
                     <div>
                         <form className='text-2xl font-nunito font-bold' onSubmit={handleSubmit}>
@@ -289,7 +289,7 @@ const Order = () => {
                                 </div>
 
                             </div>
-                            <div className='mt-4'>
+                            <div className='my-4'>
                                 <button type="submit" className="bg-[#fab583] rounded-2xl cursor-pointer border border-[#803A12] h-20 w-80">
                                     ЗАБРОНИРОВАТЬ
                                 </button>

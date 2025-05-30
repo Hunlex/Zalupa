@@ -3,9 +3,9 @@ const Footer = () => {
     return (
         <div id='contacts' className="h-auto bg-[#FAC599] flex justify-center">
             <div className="container border-t-2 border-[#331707] text-[#331707]">
-                <h3 className="font-multiround text-5xl my-6">Контакты</h3>
+                <h3 className="font-multiround text-4xl lg:text-5xl my-6">Контакты</h3>
 
-                <div className="flex flex-wrap justify-between font-multiround text-2xl">
+                <div className="flex flex-wrap justify-between font-multiround text-xl lg:text-2xl">
                     <div>
                         <p className="mb-14">Телефон: +7-000-000-00-00</p>
                         <p className="mb-14">Почта: example@gmail.com</p>

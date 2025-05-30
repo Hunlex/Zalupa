@@ -18,14 +18,14 @@ const Promo = () => {
             <div className="h-158 bg-[#68C2C3] flex justify-center" >
             <div className='container  text-[#803A12] z-10 '>
                     <header className='font-bubble text-8xl mt-12 ml-8 absolute '>Акция</header>
-                    <div className='flex justify-around mt-14'>
+                    <div className='flex justify-around items-center mt-32 xl:mt-14'>
                         <img
                             src={'./picture/card.svg'}
                             alt="Карты Маккакао"
-                            className='h-130 animate-levitate-scale'
+                            className='h-80 lg:h-96 xl:h-130 animate-levitate-scale'
                         />
                         <div>
-                            <p className='text-6xl  font-nunito font-bold leading-relaxed'>Собирай наклейки
+                            <p className=' text-4xl lg:text-5xl xl:text-6xl  font-nunito font-bold leading-relaxed'>Собирай наклейки
                                 <br />
                                 и получай скидки
                                 <br />

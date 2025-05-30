@@ -1,5 +1,3 @@
-import React from 'react';
-
 const About = () => {
     return (
         <div id='about' className="relative w-full bg-[#FDE3CD] text-[#803A12] overflow-hidden">
@@ -16,13 +14,13 @@ const About = () => {
         draggable="false"
       />
       <div className="relative z-10 container mx-auto flex flex-col justify-center py-8 px-32 space-y-4">
-        <h1 className="font-bubble text-6xl font-bold">О нас</h1>
-        <h2 className="font-multiround text-4xl ">
+        <h1 className="font-bubble text-4xl lg:text-6xl font-bold">О нас</h1>
+        <h2 className="font-multiround text-2xl lg:text-4xl ">
           «Макакао» — место, где какао становится 
           <br/>
           искусством!
         </h2>
-        <p className="text-xl font-bold max-w-2xl animate-fade-in-up">
+        <p className="text-base lg:text-xl font-bold max-w-2xl animate-fade-in-up">
           Это уголок для тех, кто ценит насыщенный вкус, аромат какао и теплое
           общение. Наше меню — это авторские рецепты напитка: от классики до
           пряных специй и ягодных акцентов. Готовим только из натуральных
