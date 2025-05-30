@@ -1,6 +1,6 @@
 const Card = ({image, title, price}) => {
     return (
-        <div className='w-80 md:bg-[#fff1e5] rounded-4xl flex flex-col font-multiround text-[#331707] '>
+        <div className='w-80 bg-[#fff1e5] rounded-4xl flex flex-col font-multiround text-[#331707] '>
             <img
                 src={image}
                 className='rounded-4xl h-60'
